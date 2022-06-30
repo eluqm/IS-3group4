@@ -31,6 +31,7 @@ https://trello.com/invite/b/83HOxMpz/25cea3974d7c352e55f3a7d4091d9074/proyecto-i
    <p align="center">
     <img src="/imagenes/trello.png">
   </p>
+  
 ### Mockups
 
 https://www.figma.com/file/KXg9J8ZPBHuc95geISk21W/Prototipos?node-id=0%3A1
