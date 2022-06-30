@@ -7,6 +7,7 @@
 4. Juan Diego Valdivia Mendoza
 5. Maryori Lizeth Hilares Angelo
 6. Vanessa Mayra Macedo Huaman
+
 ## Proyecto "Tatleon WEB"
 ### Problem Statement
 En la Universidad Nacional de San Agustín, estudiantes y docentes no cuentan con acceso a ciertas herramientas que podrían ser útiles para un adecuado desenvolvimiento académico y profesional, como la divulgación de los trabajos realizados, material de los profesores y alumnos, entre otros. Al no tener acceso a tales herramientas, los alumnos principalmente no disponen de una guía de como hacer ciertas actividades ni de poder manejar información importante para sus deberes, etc. Esto puede reducir la calidad educativa de los universitarios en varios aspectos incluyendo las actividades pedagógicas para los docentes, que podrían dificultarse cuando no pueden acceder a algún recurso académico, alguna opinión o cuando no pueden difundir sus trabajos y que otros puedan aprender a través de ello y así mejorar la calidad de los conocimientos en los universitarios. Además, la información que se ofrece esta organizada por semanas más no por temas o categorías, haciendo que la búsqueda de estos materiales para el universitario. También el hecho de que este material no esté abierta al público en general para motivar el autoaprendizaje y también como guía al momento de que alumnos postulen a una carrera profesional. 
@@ -18,3 +19,23 @@ Las primeras funciones previstas a desarrollar son:
 • Enlaces: Los estudiantes podrán subir sus trabajos para que puedan ser apreciados por los demás estudiantes y sirvan de guía.
 • Recursos: Los estudiantes de años superiores u otras carreras universitarias que ya hayan llevado un curso podrán compartir recursos académicos útiles como libros, PDFs, PPTs, videos, etc.,para los estudiantes que estén llevando o estén por llevar ese curso.
 
+### Análisis de requisitos
+Para este paso se realizó una lluvia de ideas por parte de todos los integrantes del equipo:
+   <p align="center">
+    <img src="/imagenes/miro.png">
+  </p>
+  
+### Sprint Backlog
+Para él Scrum Taskboard de Tatleon Web usamos Trello:
+https://trello.com/invite/b/83HOxMpz/25cea3974d7c352e55f3a7d4091d9074/proyecto-is-iii
+   <p align="center">
+    <img src="/imagenes/trello.png">
+  </p>
+### Mockups
+
+https://www.figma.com/file/KXg9J8ZPBHuc95geISk21W/Prototipos?node-id=0%3A1
+   <p align="center">
+    <img src="/imagenes/prototipo1.png">
+    <img src="/imagenes/prototipo2.png">
+    <img src="/imagenes/prototipo3.png">
+  </p>
