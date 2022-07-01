@@ -19,11 +19,32 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::view('/services/link_repository', 'link_repository');
+
+Route::get('/services/link_repository/{area}', function ($area) {
+    $areas = [  'ing' => '1%',  'bio' => '2%',  'soc' => '3%'   ];
+    $area_id = $areas[$area];
+
+    $escuelas = App\Models\Escuela::where('id', 'LIKE', $area_id)
+        ->orderBy('id')
+        ->get();
+    return view('link_repository')->with('escuelas', $escuelas);
+});
+
+Route::get('/services/link_repository/school/{escuela_id}', function ($escuela_id) {
+    $escuela = App\Models\Escuela::find($escuela_id);
+    $enlaces = App\Models\Enlace::where('school_id', $escuela_id)
+        ->orderBy('id')
+        ->get();
+    return view('school')->with('escuela', $escuela)->with('enlaces', $enlaces);
+});
+
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
-
-// Route::get('/home', [Home_::class, 'index'])->middleware(['auth'])->name('home');
 
 require __DIR__.'/auth.php';
 
