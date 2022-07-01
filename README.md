@@ -19,6 +19,27 @@ Las primeras funciones previstas a desarrollar son:
 • Enlaces: Los estudiantes podrán subir sus trabajos para que puedan ser apreciados por los demás estudiantes y sirvan de guía.
 • Recursos: Los estudiantes de años superiores u otras carreras universitarias que ya hayan llevado un curso podrán compartir recursos académicos útiles como libros, PDFs, PPTs, videos, etc.,para los estudiantes que estén llevando o estén por llevar ese curso.
 
+### Recursos Humanos
+La division de cada integrante para que aporte en un  ́ambito en espec ́ıfico es muy importante ya que de esta manera podemos distribuir el trabajo de una manera muchas más f ́acil y equitativa por eso usando la metodolog ́ıa Scrum decidimos distribuir todo el Delta Team de la siguiente manera:
+
+#### Scrum Master
+El Scrum Master de nuestro equipo es Jack Christopher Huaihua Huayhua es por eso que
+decidimos ponerlo como nuestro Scrum Master para que pueda guiarnos y al mismo tiempo resolver
+cualquier problema que surja.
+
+#### Product Owner
+El Product Owner de nuestro equipo es Rodrigo Jesus Santisteban Pachari, quien ser ́a la voz
+del cliente, en otras palabras ser ́a el enlace entre un cliente y nuestro equipo de desarrollo. Lleva
+la visi ́on del producto y lo que se necesita desarrollar, adem ́as de gestionar los comentarios de los
+usuarios.
+
+#### Scrum Team
+El Scrum Team estará compuesto por Luis Felipe Sante Taipe, Juan Diego Valdivia Mendoza, Maryori Lizeth Hilares Angelo y Vanessa Mayra Macedo Huaman que serán los encargados de convertir Product BackLog, en software entregable. En este caso decidimos dividir el trabajo de cada uno de nosotros en tres partes.
+* Diseñador: El encargado de generar el diseño del sistema es Luis Felipe Sante Taipe quien va a generar el diseño arquitectónico y diseño detallado del sistema con base en los requisitos.
+* Programadores: Los encargados son Juan Diego Valdivia Mendoza y Vanessa Mayra Macedo Huaman que tienen la capacidad de convertir los requisitos del sistema en código fuente ejecutable utilizando uno o más lenguajes de programación, así como herramientas de apoyo.
+* Testers: El encargado de poner a prueba el software es Maryori Lizeth Hilares Angelo con el objetivo de corregir errores y entregar un producto de buena calidad.
+
+
 ### Análisis de requisitos
 Para este paso se realizó una lluvia de ideas por parte de todos los integrantes del equipo:
    <p align="center">
