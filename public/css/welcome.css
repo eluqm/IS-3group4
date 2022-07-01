@@ -1,0 +1,46 @@
+.btn
+{
+    margin: 25px 50px; 
+    padding: 10px;
+    font-size: large;
+}
+
+.container
+{
+    padding:2%;
+}
+
+
+#button_box
+{
+    background-image:url(../img/background.jpg);
+    background-attachment: fixed; 
+    background-size: cover;
+    border-radius: 25px;
+}
+#TDT_logo
+{
+    height: 75px;
+    width: auto;
+}
+
+@media screen and (max-width: 575px) 
+{
+    #logo
+    {
+        width:64%;
+        height:auto;
+    }
+    
+    #button_box
+    {
+        width:100%;
+        height:auto;
+        border-radius: 0px;
+    }
+
+    .index_button
+    {
+        margin: 25px 15px 25px 15px !important;
+    }
+}
