@@ -26,18 +26,18 @@ Route::get('/services/link_repository/{area}', function ($area) {
     $areas = [  'ing' => '1%',  'bio' => '2%',  'soc' => '3%'   ];
     $area_id = $areas[$area];
 
-    $escuelas = App\Models\Escuela::where('id', 'LIKE', $area_id)
+    $schools = App\Models\School::where('id', 'LIKE', $area_id)
         ->orderBy('id')
         ->get();
-    return view('link_repository')->with('escuelas', $escuelas);
+    return view('link_repository')->with('school', $school);
 });
 
-Route::get('/services/link_repository/school/{escuela_id}', function ($escuela_id) {
-    $escuela = App\Models\Escuela::find($escuela_id);
-    $enlaces = App\Models\Enlace::where('school_id', $escuela_id)
+Route::get('/services/link_repository/school/{school_id}', function ($school_id) {
+    $school = App\Models\School::find($school_id);
+    $links = App\Models\Link::where('school_id', $school_id)
         ->orderBy('id')
         ->get();
-    return view('school')->with('escuela', $escuela)->with('enlaces', $enlaces);
+    return view('school')->with('school', $school)->with('links', $links);
 });
 
 
