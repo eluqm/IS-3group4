@@ -29,7 +29,7 @@ Route::get('/services/link_repository/{area}', function ($area) {
     $schools = App\Models\School::where('id', 'LIKE', $area_id)
         ->orderBy('id')
         ->get();
-    return view('link_repository')->with('school', $school);
+    return view('link_repository')->with('schools', $schools);
 });
 
 Route::get('/services/link_repository/school/{school_id}', function ($school_id) {

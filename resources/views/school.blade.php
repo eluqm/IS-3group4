@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title> {{$escuela->nombre}} </title>
+    <title> {{$school->nombre}} </title>
     <!-- Scripts -->
     <script src="{{ asset(mix('js/app.js')) }}" defer></script>
     <!-- Styles -->
@@ -48,7 +48,7 @@
 
 
     <div class="container">
-    <h1 class="display-3"> Enlaces de {{$escuela->name}} </h1>
+    <h1 class="display-3"> Enlaces de {{$school->name}} </h1>
     <br>
 
     <table class="table table-hover table-bordered">
@@ -63,9 +63,9 @@
       </thead>
       <tbody>
         <?php
-        if (count($enlaces) > 0) 
+        if (count($links) > 0) 
         {
-          foreach ($enlaces as $row) 
+          foreach ($links as $row) 
           {
             echo "<tr>";
             echo "<th scope=\"row\">" . $row['id'] . "</th>";

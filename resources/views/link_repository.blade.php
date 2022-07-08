@@ -47,7 +47,7 @@
 
     <div class="container">
 
-@if (isset($escuelas))
+@if (isset($schools))
     <table class="table table-hover table-bordered">
         <thead>
             </tr>
@@ -58,14 +58,14 @@
         </thead>
         <tbody>
             <?php
-            if ($escuelas != null) 
+            if ($schools != null) 
             {
-                foreach ($escuelas as $escuela) 
+                foreach ($schools as $school) 
                 {
                     echo "<tr>";
-                    echo "<th scope=\"row\">" . $escuela->id . "</th>";
-                    echo "<td>" . $escuela->name . "</td>";
-                    echo "<td> <a href=\"school/" . $escuela->id . "\" class=\"btn btn-success\"> Explorar</a> </td>";
+                    echo "<th scope=\"row\">" . $school->id . "</th>";
+                    echo "<td>" . $school->name . "</td>";
+                    echo "<td> <a href=\"school/" . $school->id . "\" class=\"btn btn-success\"> Explorar</a> </td>";
                     echo "</tr>";
                 }
             }
