@@ -55,8 +55,25 @@
       </tbody>
     </table>
 
-    <div class="alert alert-info" role="alert" align="center">
-    <h4> Puedes ingresar tus propios enlaces para aumentar la información ofrecida por la página </h4>
+    <?php 
+        if ($is_my_school)
+        {
+            $url = $_SERVER['REQUEST_URI'] . '/add_link';
+            // echo div align right
+            echo "<div class=\"container\" align=\"right\">";
+            echo '<a href="' .  $url . '" class="btn btn-success"> Agregar enlace </a>';
+            echo "</div><br>";
+            echo '<div class="alert alert-dark" role="alert" align="center">';
+            echo "<h4> Puedes ingresar tus propios enlaces para aumentar la información ofrecida por la página </h4>";
+            echo "</div>";
+        }
+        else
+        {
+            echo '<div class="alert alert-dark" role="alert" align="center">';
+            echo "<h4> Solo puedes agregar enlaces a tus propias escuelas </h4>";
+            echo "</div>";
+        }
+    ?>
 
   </div>
 
