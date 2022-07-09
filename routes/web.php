@@ -34,11 +34,6 @@ Route::get('/services/link_repository/school/{school_id}', [App\Http\Controllers
 Route::post('/services/link_repository/school/add_link', [App\Http\Controllers\SchoolController::class, 'addLink'])->name('add_link');
 
 
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
-
 require __DIR__.'/auth.php';
 
 Auth::routes();
