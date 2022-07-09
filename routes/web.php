@@ -15,9 +15,13 @@ use App\Http\Controllers\HomeController as Home_;
 |
 */
 
+// special views
 Route::view('/', 'welcome')->name('welcome');
 
+Route::get('/account', [App\Http\Controllers\AccountController::class, 'index'])->middleware('auth')->name('account');
+Route::post('/account', [App\Http\Controllers\AccountController::class, 'userSchool'])->name('user_school');
 
+// services routes
 Route::view('/services/link_repository', 'link_repository');
 
 Route::get('/services/link_repository/{area}', function ($area) {
@@ -33,7 +37,7 @@ Route::get('/services/link_repository/{area}', function ($area) {
 Route::get('/services/link_repository/school/{school_id}', [App\Http\Controllers\SchoolController::class, 'index'])->name('school');
 Route::post('/services/link_repository/school/add_link', [App\Http\Controllers\SchoolController::class, 'addLink'])->name('add_link');
 
-
+//  auth routes
 require __DIR__.'/auth.php';
 
 Auth::routes();
