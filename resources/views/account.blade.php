@@ -9,7 +9,6 @@
 @endsection
 
 @section('styles')
-    <link rel="stylesheet" href="{{ asset('css/account.css') }}">
     <link rel="stylesheet" href="{{ asset('css/navbar.css') }}">
 
 @endsection

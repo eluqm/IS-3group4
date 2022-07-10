@@ -15,6 +15,7 @@
     
     <!-- Styles -->
     <link href="{{ asset(mix('css/app.css')) }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/board.css') }}">
     @yield('styles')
 </head>
 
