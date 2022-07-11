@@ -21,9 +21,9 @@ Route::view('/', 'welcome')->name('welcome');
 Route::get('/account', [App\Http\Controllers\AccountController::class, 'index'])->middleware('auth')->name('account');
 Route::post('/account', [App\Http\Controllers\AccountController::class, 'userSchool'])->name('user_school');
 
+
 // services routes
 Route::view('/services/link_repository', 'link_repository');
-
 Route::get('/services/link_repository/{area}', function ($area) {
     $areas = [  'ing' => '1%',  'bio' => '2%',  'soc' => '3%'   ];
     $area_id = $areas[$area];
@@ -33,9 +33,15 @@ Route::get('/services/link_repository/{area}', function ($area) {
         ->get();
     return view('link_repository')->with('schools', $schools);
 });
+Route::get('services/link_repository/school/{school_id}/add_link', function ($school_id) {
+    $school = App\Models\School::find($school_id);
+    return view('add_link', compact('school'));
+})->middleware('auth');
+
 
 Route::get('/services/link_repository/school/{school_id}', [App\Http\Controllers\SchoolController::class, 'index'])->name('school');
 Route::post('/services/link_repository/school/add_link', [App\Http\Controllers\SchoolController::class, 'addLink'])->name('add_link');
+
 
 //  auth routes
 require __DIR__.'/auth.php';
