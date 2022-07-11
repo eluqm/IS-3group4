@@ -18,18 +18,34 @@ class SchoolController extends Controller
         $links = Link::where('school_id', $school_id)
             ->orderBy('id')
             ->get();
-        $is_my_school = false;
+            $status = "";
 
-        $user_schools = UserSchool::where('user_id', auth()->user()->id)->get();
-        if (count($user_schools) > 0) {
-            foreach ($user_schools as $user_school) {
-                if ($user_school->school_id == $school_id) {
-                    $is_my_school = true;
+            // if the user is logged in
+            if (auth()->check()) 
+            {
+                // if current school is one of my schools
+                $user_schools = UserSchool::where('user_id', auth()->user()->id)->get();
+                if (count($user_schools) > 0) 
+                {
+                    foreach ($user_schools as $user_school) 
+                    {
+                        if ($user_school->school_id == $school_id) 
+                        {
+                            $status = "my_school";
+                        }
+                }
+                if ($status == "") 
+                {
+                    $status = "not_my_school";
                 }
             }
+            else
+            {
+                $status = "not_logged_in";
+            }
         }
-        // return view('school')->with('school', $school)->with('links', $links);
-        return view('school', compact('school', 'links', 'is_my_school'));
+        
+        return view('school', compact('school', 'links', 'status'));
     }
 
     public function addLink(Request $request)

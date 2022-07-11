@@ -56,7 +56,13 @@
     </table>
 
     <?php 
-        if ($is_my_school)
+        if ($status == "not_logged_in") 
+        {
+            // centered
+            echo "<div class=\"alert alert-warning alert-dismissible fade show\" role=\"alert\" align=\"center\">";
+            echo "<strong>¡Atención!</strong> Debes <a href=\"/login\" class=\"alert-link\">iniciar sesión</a> para poder agregar enlaces.";
+        }
+        else if ($status == "my_school")
         {
             $url = $_SERVER['REQUEST_URI'] . '/add_link';
             // echo div align right
@@ -67,7 +73,7 @@
             echo "<h4> Puedes ingresar tus propios enlaces para aumentar la información ofrecida por la página </h4>";
             echo "</div>";
         }
-        else
+        else if ($status == "not_my_school")
         {
             echo '<div class="alert alert-dark" role="alert" align="center">';
             echo "<h4> Solo puedes agregar enlaces a tus propias escuelas </h4>";
