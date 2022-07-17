@@ -21,6 +21,11 @@ Route::view('/', 'welcome')->name('welcome');
 Route::get('/account', [App\Http\Controllers\AccountController::class, 'index'])->middleware('auth')->name('account');
 Route::post('/account', [App\Http\Controllers\AccountController::class, 'userSchool'])->name('user_school');
 
+Route::view('services', 'services');
+
+Route::view('support', 'support');
+
+Route::view('about', 'about');
 
 // services routes
 Route::view('/services/link_repository', 'link_repository');

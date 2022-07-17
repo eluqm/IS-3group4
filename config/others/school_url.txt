@@ -1,0 +1,47 @@
+301 => Administracion => https://fad.unsa.edu.pe/administracion/plan-de-estudios-2017/
+201 => Agronomia => https://fagr.unsa.edu.pe/plan-de-estudios/
+302 => Antropologia => https://fchs.unsa.edu.pe/antropologia/plan-de-estudios/
+101 => Arquitectura => https://fau.unsa.edu.pe/plan-de-estudios/
+303 => Artes => https://ffh.unsa.edu.pe/artes/planes-de-estudios/
+304 => Banca y Seguros => https://fad.unsa.edu.pe/bancayseguros/plan-de-estudios/
+202 => Biologia => https://fcb.unsa.edu.pe/biologia/plan-de-estudios-2/
+102 => Ciencias de la Computacion => https://fips.unsa.edu.pe/cienciadelacomputacion/plan-de-estudios/
+305 => Ciencias de la Comunicacion => https://fpsrriicc.unsa.edu.pe/ciecomunicacion/plan-de-estudios/
+203 => Ciencias de la Nutricion => https://fcb.unsa.edu.pe/nutricion/plan-de-estudios/
+306 => Contabilidad => https://fccf.unsa.edu.pe/contabilidad/plan-de-estudios/
+307 => Derecho => https://fde.unsa.edu.pe/plan-de-estudios/
+308 => Economia => https://fec.unsa.edu.pe/plan-de-estudios/
+204 => Enfermeria => https://fen.unsa.edu.pe/plan-de-estudios-2/
+309 => Educacion => https://fce.unsa.edu.pe/plan-de-estudios-2/
+310 => Filosofia => https://ffh.unsa.edu.pe/filosofia/plan-de-estudios/
+311 => Finanzas => https://fccf.unsa.edu.pe/finanzas/plan-de-estudios/
+103 => Fisica => https://fcnf.unsa.edu.pe/fisica/plan-de-estudios/
+312 => Gestion => https://fad.unsa.edu.pe/gestion/plan-de-estudios-2/
+313 => Historia => https://fchs.unsa.edu.pe/historia/plan-de-estudios/
+104 => Ingenieria Ambiental => https://fip.unsa.edu.pe/ingambiental/plan-de-estudios-2/
+105 => Ingenieria Civil => https://fic.unsa.edu.pe/ingcivil/plan-de-estudios/
+106 => Ingenieria de Industrias Alimentarias => https://fip.unsa.edu.pe/ingalimentarias/plan-de-estudios/
+107 => Ingenieria de Materiales => https://fip.unsa.edu.pe/ingmateriales/plan-de-estudios-2/
+108 => Ingenieria de Minas => https://fggm.unsa.edu.pe/ingminas/plan-de-estudios/
+109 => Ingenieria de Sistemas => 
+110 => Ingenieria de Telecomunicaciones => https://fips.unsa.edu.pe/telecomunicaciones/plan-de-estudios/
+111 => Ingenieria Electrica => https://fips.unsa.edu.pe/ingenieriaelectrica/plan-de-estudios/
+112 => Ingenieria Electronica => https://fips.unsa.edu.pe/ingenieriaelectronica/plan-de-estudios/
+113 => Ingenieria Geofisica => https://fggm.unsa.edu.pe/inggeofisica/plan-de-estudios/2
+114 => Ingenieria Geologica => https://fggm.unsa.edu.pe/inggeologica/plan-de-estudios/
+115 => Ingenieria Industrial => https://fips.unsa.edu.pe/ingenieriaindustrial/plan-de-estudios/
+116 => Ingenieria Mecanica => https://fips.unsa.edu.pe/ingenieriamecanica/plan-de-estudios/
+117 => Ingenieria Metalurgica => https://fip.unsa.edu.pe/ingmetalurgica/plan-de-estudios/
+205 => Ingenieria Pesquera => https://fcb.unsa.edu.pe/pesquera/plan-de-estudios/
+118 => Ingenieria Quimica => https://fip.unsa.edu.pe/ingquimica/plan-de-estudios/
+119 => Ingenieria Sanitaria => https://fic.unsa.edu.pe/ingsanitaria/plan-de-estudios/
+314 => Literatura y Linguistica => https://ffh.unsa.edu.pe/literatura/1338-2/
+315 => Marketing => https://fad.unsa.edu.pe/marketing/plan-de-estudios/
+120 => Matematicas => https://fcnf.unsa.edu.pe/matematica/plan-de-estudios/
+206 => Medicina => https://fmd.unsa.edu.pe/plan-de-estudios/
+316 => Psicologia => https://fpsrriicc.unsa.edu.pe/psicologia/plan-de-estudios-2/
+121 => Quimica => https://fcnf.unsa.edu.pe/quimica/plan-de-estudios/
+317 => Relaciones Industriales => https://fpsrriicc.unsa.edu.pe/relindustriales/plan-de-estudios-2/
+318 => Sociologia => https://fchs.unsa.edu.pe/sociologia/plan-de-estudios-2/
+319 => Trabajo Social => https://fchs.unsa.edu.pe/trabajosocial/plan-de-estudios/
+320 => Turismo y Hoteleria => https://fchs.unsa.edu.pe/turismo/plan-de-estudios/
