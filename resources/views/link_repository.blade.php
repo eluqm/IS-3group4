@@ -25,19 +25,15 @@
                 </tr>
             </thead>
             <tbody>
-                <?php
-                if ($schools != null) 
-                {
-                    foreach ($schools as $school) 
-                    {
-                        echo "<tr>";
-                        echo "<th scope=\"row\">" . $school->id . "</th>";
-                        echo "<td>" . $school->name . "</td>";
-                        echo "<td> <a href=\"school/" . $school->id . "\" class=\"btn btn-success\"> Explorar</a> </td>";
-                        echo "</tr>";
-                    }
-                }
-                ?>
+                @if ($schools != null) 
+                    @foreach ($schools as $school) 
+                        <tr>
+                        <th scope="row">  {{$school->id}} </th>
+                        <td> {{$school->name}} </td>
+                        <td> <a href="school/{{$school->id}}"  class="btn btn-success"> Explorar</a> </td>
+                        </tr>
+                    @endforeach
+                @endif
             </tbody>
         </table>
 
