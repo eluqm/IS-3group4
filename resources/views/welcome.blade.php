@@ -5,13 +5,10 @@
 @endsection
 
 @section('scripts')
-    <script src="{{ asset(mix('js/app.js')) }}" defer></script>
 @endsection
 
 @section('styles')
-    <link href="{{ asset(mix('css/app.css')) }}" rel="stylesheet">
     <link rel="stylesheet" href="{!! asset('css/welcome.css') !!}">
-    <link rel="stylesheet" href="{!! asset('css/navbar.css') !!}">
 @endsection
 
 @section('content')
