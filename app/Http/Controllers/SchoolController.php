@@ -65,4 +65,11 @@ class SchoolController extends Controller
 
         return redirect()->back()->with('success', 'Enlace registrado correctamente');
     }
+
+    // with auth middleware
+    public function addLinkView($school_id)
+    {
+        $school = School::find($school_id);
+        return view('add_link', compact('school'));
+    }
 }
