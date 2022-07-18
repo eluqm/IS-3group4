@@ -6,6 +6,8 @@ use App\Http\Controllers\LinkRepositoryController as LinkRepository_;
 use App\Http\Controllers\SchoolController as School_;
 use App\Http\Controllers\HomeController as Home_;
 use App\Http\Controllers\AccountController as Account_;
+use App\Http\Controllers\SharedResourcesController as SharedResources_;
+use App\Http\Controllers\CourseController as Course_;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,6 +39,11 @@ Route::get('/services/link_repository/school/{school_id}', [School_::class, 'ind
 Route::get('/services/link_repository/school/{school_id}/add_link', [School_::class, 'addLinkView'])->middleware('auth')->name('add_link');
 Route::post('/services/link_repository/school/add_link', [School_::class, 'addLink'])->name('add_link');
 
+Route::get('/services/shared_resources', [SharedResources_::class, 'index'])->name('shared_resources');
+Route::get('/services/shared_resources/school', [SharedResources_::class, 'by_school'])->name('by_school');
+Route::get('/services/shared_resources/course/{id}', [Course_::class, 'index'])->name('course');
+Route::get('/services/shared_resources/add_resource/{course_id}', [Course_::class, 'resource'])->middleware('auth')->name('resource');
+Route::post('/services/shared_resources/add_resource', [Course_::class, 'add_resource'])->middleware('auth')->name('add_resource');
 
 //  auth routes
 require __DIR__.'/auth.php';
