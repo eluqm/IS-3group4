@@ -36,6 +36,38 @@
       </p>
     </div>
 
+
+    <div class="alert alert-warning" role="alert">
+    <h2> Recursos Compartidos</h2>
+    <h5> Propósito: </h5>
+    <p> Almacenar y poner a disposición Recursos Académicos subidos por los estudiantes
+        de la Universidad Nacional de San Agustín.
+        Con el propósito de que los estudiantes que están en grados inferiores o en otras escuelas/facultades puedan 
+        estudiar y/o practicar con anticipación y tener una educación más integral complementando con estos recursos
+        los cursos que estén llevando.</p>
+    </p>
+    <h5> Funcionamiento: </h5>
+    <p>
+        La idea es que cualquier estudiante que esté llevando el curso cree una carpeta en Google Drive dentro de la cual
+        suba recursos que considere útiles para el curso.
+        Lo que debe subir a esta plataforma es el enlace de la carpeta en Google Drive.
+        Cualquier usuario podrá ver todos los recursos almacenados en la plataforma.
+        <br>
+        <b> Se deben cumplir las siguientes reglas en la publicación de recursos: </b>
+        <ul>
+            <li> No se permiten recursos que infringan derechos de autor. </li>
+            <li> No se permiten recursos que atenten contra la moral, la ética o la dignidad de los estudiantes. </li>
+            <li> No se permiten recursos que tengan contenido sexual, racista, violento, amenazante, degradante o que contengan datos personales. </li>
+        </ul>
+
+        <br>
+        No podrán subir Recursos de un curso:
+    <ul>
+        <li> Los que no se hayan registrado </li>
+        <li> Los que no lleven ese curso </li>
+    </ul>
+    </p>
+    </div>
    
 
     <div class="alert alert-info" role="alert">
