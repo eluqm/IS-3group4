@@ -14,9 +14,7 @@ class CreateCourseSchoolTable extends Migration
     public function up()
     {
         Schema::create('course_school', function (Blueprint $table) {
-            //id must not autoincrement
-            $table->integer('id')->unsigned();
-            $table->primary('id');
+            $table->id();
             $table->integer('course_id');
             $table->integer('school_id');
             $table->unique(['course_id', 'school_id']);
