@@ -50,14 +50,16 @@
     </table>
 
     @auth
-        <div class="row" align="right">
-            <div class="col-md-12">
-                <a href={{"/services/shared_resources/add_resource/".$course->id}} class="btn btn-primary">
-                    <i class="fa fa-plus"></i>
-                    Agregar recurso
-                </a>
+        @if ($is_my_course)
+            <div class="row" align="right">
+                <div class="col-md-12">
+                    <a href={{"/services/shared_resources/add_resource/".$course->id}} class="btn btn-primary">
+                        <i class="fa fa-plus"></i>
+                        Agregar recurso
+                    </a>
+                </div>
             </div>
-        </div>
+        @endif
     @endauth
 
 
