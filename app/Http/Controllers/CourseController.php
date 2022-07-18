@@ -16,16 +16,19 @@ class CourseController extends Controller
         $origin = 'Recursos de ' . Course::find($id)->name;
         $resources = Resource::where('course_id', $id)->get();
         
-        // verify if the course belongs to my school
-        $my_school = DB::table('course_school')
-            ->join('schools', 'schools.id', '=', 'course_school.school_id')
-            ->join('user_school', 'user_school.school_id', '=', 'schools.id')
-            ->where('course_school.course_id', $id)
-            ->where('user_school.user_id', auth()->user()->id);
-
         $is_my_course = false;
-        if ($my_school->count() > 0) {
-            $is_my_course = true;
+        if (auth()->check())
+        {
+            // verify if the course belongs to my school
+            $my_school = DB::table('course_school')
+                ->join('schools', 'schools.id', '=', 'course_school.school_id')
+                ->join('user_school', 'user_school.school_id', '=', 'schools.id')
+                ->where('course_school.course_id', $id)
+                ->where('user_school.user_id', auth()->user()->id);
+            if ($my_school->count() > 0) 
+            {
+                $is_my_course = true;
+            }
         }
 
         return view('course', compact('course', 'origin', 'resources', 'is_my_course'));
