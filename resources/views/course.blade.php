@@ -12,7 +12,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="display-3"> Recursos de {{$course->name}} </h1>
+    <h5 class="display-5"> Recursos de {{$course->name}} </h5>
     <br>
     <div class="alert alert-warning" role="alert" align="center">
         <strong>¡Atención!</strong>
