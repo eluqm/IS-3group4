@@ -1,5 +1,5 @@
 
-@extends('layouts.dashboard')
+@extends('layouts.board')
 
 @section('title', 'Agregar enlace')
 
