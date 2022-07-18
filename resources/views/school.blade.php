@@ -37,9 +37,9 @@
           {
             echo "<tr>";
             echo "<th scope=\"row\">" . $row['id'] . "</th>";
-            echo "<td>" . $row['nombre'] . "</td>";
+            echo "<td>" . $row['name'] . "</td>";
 
-            echo "<td>" . $row['descripcion'] . "</td>";
+            echo "<td>" . $row['description'] . "</td>";
 
             echo "<td> <a href=\"" .  $row['url'] . "\" class=\"btn btn-success\"> Visitar</a> </td>";
             echo "</tr>";
