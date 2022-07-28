@@ -35,7 +35,7 @@
                 <div class="container" align="center">
                     <a href="services/link_repository" class="btn btn-primary"> Repositorio de Enlaces</a>
                     <a href="services/shared_resources" class="btn btn-danger"> Recursos Compartidos </a>
-                    <a href="#" class="btn btn-warning"> Coming soon... </a>
+                    <a href="services/teacher_records" class="btn btn-warning"> Registro de Docentes </a>
                     <br>
                     <a href="#" class="btn btn-primary index_button"> Coming soon... </a>
                     <a href="#" class="btn btn-danger index_button"> Coming soon... </a>
