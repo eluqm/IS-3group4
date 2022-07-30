@@ -8,6 +8,8 @@ use App\Http\Controllers\HomeController as Home_;
 use App\Http\Controllers\AccountController as Account_;
 use App\Http\Controllers\SharedResourcesController as SharedResources_;
 use App\Http\Controllers\CourseController as Course_;
+use App\Http\Controllers\TeacherRecordsController as TeacherRecords_;
+use App\Http\Controllers\CommentController as Comment_;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,6 +47,11 @@ Route::get('/services/shared_resources/course/{id}', [Course_::class, 'index'])-
 Route::get('/services/shared_resources/add_resource/{course_id}', [Course_::class, 'resource'])->middleware('auth')->name('resource');
 Route::post('/services/shared_resources/add_resource', [Course_::class, 'add_resource'])->middleware('auth')->name('add_resource');
 
+Route::get('/services/teacher_records', [TeacherRecords_::class, 'index'])->name('teacher_records');
+Route::post('/services/teacher_records', [TeacherRecords_::class, 'add_teacher'])->name('add_teacher');
+Route::get('/services/teacher_records/add_comment/{teacher_id}', [Comment_::class, 'index'])->middleware('auth')->name('comment');
+Route::post('/services/teacher_records/add_comment', [Comment_::class, 'add_comment'])->middleware('auth')->name('add_comment');
+ 
 //  auth routes
 require __DIR__.'/auth.php';
 
