@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/license-MIT-green) ![](https://img.shields.io/github/commit-activity/y/eluqm/IS-3group4) ![](https://img.shields.io/github/contributors/eluqm/IS-3group4) ![](https://img.shields.io/github/last-commit/eluqm/IS-3group4) ![](https://img.shields.io/github/languages/code-size/eluqm/IS-3group4) ![](https://img.shields.io/tokei/lines/github/eluqm/IS-3group4) ![](https://img.shields.io/github/stars/eluqm/IS-3group4?style=social)
+
+
 # Ingenieria de Software III - Grupo 04
 ***
 ## Integrantes
@@ -61,3 +64,8 @@ https://www.figma.com/file/KXg9J8ZPBHuc95geISk21W/Prototipos?node-id=0%3A1
     <img src="/imagenes/prototipo2.png">
     <img src="/imagenes/prototipo3.png">
   </p>
+
+
+## Licencia
+
+Tatleon Web es distribuido bajo la [Licencia MIT](https://opensource.org/licenses/MIT).
