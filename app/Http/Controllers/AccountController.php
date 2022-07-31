@@ -76,6 +76,6 @@ class AccountController extends Controller
         $user_school->user_id = $user->id;
         $user_school->school_id = $request->input('school_id'); 
         $user_school->save();
-        return redirect('/account');
+        return redirect()->route('account');
     }
 }
