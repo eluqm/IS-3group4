@@ -67,46 +67,27 @@ https://www.figma.com/file/KXg9J8ZPBHuc95geISk21W/Prototipos?node-id=0%3A1
 
 # Casos de Prueba
 
-## **Función** *print_header($header) :*
-$header es un parámetro de tipo Header que cuenta con 4 atributos:
-* private  $title;
-* private  $css_path;
-* private  $js_path;
-* private  $icon_path;
-Que son el título y la ubicación de los archivos necesarios.
+## Test Suite: Account Controller Test
+| Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Account Controller does not displays account view to guests | Los invitados no pueden acceder a la vista "cuenta" | Los invitados no pueden acceder a la vista "cuenta" | Pass |
+| Account Controller displays the account view to users | Los usuarios registrados si pueden acceder a la vista "cuenta" |  Los usuarios registrados si pueden acceder a la vista "cuenta" | Pass |
+| Save school of user works | El usuario puede establecer la escuela en la que estudia | El usuario puede establecer la escuela en la que estudia | Pass |
 
-| Caso de Prueba| Valor de Entrada| Resultado Esperado |
-| ----------- | ----------- | ----------- |
-| Solo Título | Un objeto de tipo Header que solo tenga el titulo establecido  | 1101 |
-| Solo Archivo CSS | Un objeto de tipo Header que solo tenga la ubicación al Archivo CSS | 1011 |
-| Solo Archivo JS | Un objeto de tipo Header que solo tenga la ubicación al Archivo JS | 111 |
-| Solo Icono | Un objeto de tipo Header que solo tenga la ubicación al ícono | 1110 |
-| Completo  | Un objeto de tipo Header con todos sus atributos establecidos | 0 |
-| Vacio| Un objeto de tipo Header con ningún atributo establecido | 1111 |
+## Test Suite: Authentication Controller Test
+| Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Login screen can be rendered | La vista de Inicio de Sesión se muestra a todos | La vista de Inicio de Sesión se muestra a todos | Pass |
+| Users can authenticate using the login screen | Los usuarios pueden autenticarse usando la vista de Inicio de Sesión | Los usuarios pueden autenticarse usando la vista de Inicio de Sesión | Pass |
+| Users can not authenticate with invalid password | Los usuarios no pueden autenticarse con una contraseña inválida | Los usuarios no pueden autenticarse con una contraseña inválida | Pass |
 
+## Test Suite: Email Verification Test
+| Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Email verification screen can be rendered | La vista de Verificación de Correo se muestra a todos | La vista de Verificación de Correo se muestra a todos | Pass |
+| Email can be verified | El correo puede ser verificado | El correo puede ser verificado | Pass |
+| Email is not verified with invalid hash | El correo no puede ser verificado con un hash inválido | El correo no puede ser verificado con un hash inválido | Pass |
 
-
-## **Función** *getNombresCompletos()* de la clase User :
-
-| Caso de Prueba| Valor de Entrada| Resultado Esperado |
-| ----------- | ----------- | ----------- |
-| Nombres y Apellidos disponibles | nombres=Jack Christopher, apellidos= Huaihua Huayhua  | Huaihua Huayhua, Jack Christopher|
-| Nombres y Apellidos disponibles | nombres=Rodrigo Jesus, apellidos= Santisteban Pachari  | Santisteban Pachari, Rodrigo Jesus|
-| Nombres disponibles y Apellidos no disponibles | nombres=, apellidos=  | N, N|
-| Nombres no disponibles y Apellidos disponibles | nombres=, apellidos=  | N, N|
-| Nombres y Apellidos no disponibles | nombres=, apellidos=  | N, N|
-
-
-## **Función** *getAtributo($atributo)* de la clase User :
-| Caso de Prueba| Valor de Entrada| Resultado Esperado |
-| ----------- | ----------- | ----------- |
-| Obtener atributo ID disponible | Usuario con id=5 | 5|
-| Obtener atributo nombre disponible | Usuario con nombre=Jack Christopher | Jack Christopher |
-| Obtener atributo email disponible | Usuario con email=jack@gmail.com | jack@gmail.com |
-| Obtener atributo nombre de usuario disponible | Usuario con nombre de usuario=JC | JC|
-| Obtener atributo no existente telefono | Usuario cualquiera | null|
-| Obtener atributo no existente edad | Usuario cualquiera | null|
-| Obtener atributo no existente direccion | Usuario cualquiera | null|
 
 ## Licencia
 
