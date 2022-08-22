@@ -88,6 +88,22 @@ https://www.figma.com/file/KXg9J8ZPBHuc95geISk21W/Prototipos?node-id=0%3A1
 | 8 | Email can be verified | El correo puede ser verificado | El correo puede ser verificado | Pass |
 | 9 | Email is not verified with invalid hash | El correo no puede ser verificado con un hash inválido | El correo no puede ser verificado con un hash inválido | Pass |
 
+## Test Suite: Password Confirmation Test
+| N° | Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
+| ----------- | ----------- | ----------- | ----------- | ----------- | 
+| 10 | Confirm password screen can be rendered | El mensaje de confirmación de contraseña se muestra a todos | El mensaje de confirmación de contraseña se muestra a todos | Pass |
+| 11 | Password can be confirmed | La contraseña puede confirmarse a todos | La contraseña puede confirmarse a todos | Pass |
+| 12 | Password is not confirmed with invalid_password | Las contraseñas no válidas se muestra a todos | Las contraseñas no válidas se muestra a todos | Pass |
+
+## Test Suite: Password Reset Test
+| N° | Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
+| ----------- | ----------- | ----------- | ----------- | ----------- | 
+| 13 | Reset password link screen can be rendered | La vista de Enlace de Restablecimiento de Contraseña se muestra a todos |  La vista de enlace de Restablecimiento de Contraseña se muestra a todos | Pass |
+| 14 | Reset password link can be requested | Todos pueden solicitar restablecimiento de contraseña | Todos pueden solicitar restablecimiento de contraseña | Pass |
+| 15 | Reset password screen can be rendered | La vista de Restablecimiento de Contraseña se muestra a todos | La vista de Restablecimiento de Contraseña se muestra a todos | Pass |
+| 16 | Password can be reset with valid token | Todos pueden reestablecer su contraseña con un token válido |  Todos pueden reestablecer su contraseña con un token válido | Pass |
+
+
 
 ## Licencia
 
