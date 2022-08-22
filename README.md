@@ -81,27 +81,50 @@ https://www.figma.com/file/KXg9J8ZPBHuc95geISk21W/Prototipos?node-id=0%3A1
 | 5 | Users can authenticate using the login screen | Los usuarios pueden autenticarse usando la vista de Inicio de Sesión | Los usuarios pueden autenticarse usando la vista de Inicio de Sesión | Pass |
 | 6 | Users can not authenticate with invalid password | Los usuarios no pueden autenticarse con una contraseña inválida | Los usuarios no pueden autenticarse con una contraseña inválida | Pass |
 
+
+
+## Test Suite: Comment Controller Test
+| N° | Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
+| ----------- | ----------- | ----------- | ----------- | ----------- | 
+| 7 |Comment Controller does not display add comment view to guests | Los invitados no pueden acceder a la vista 'agregar comentarios' | Los invitados no pueden acceder a la vista 'agregar comentarios' | Pass |
+| 8 | Comment Controller displays add comment view to users | Los usuarios pueden acceder a la vista 'agregar comentarios' | Los usuarios pueden acceder a la vista 'agregar comentarios'| Pass |
+| 9 | Comment Controller save comment works | Se pueden guardar los comentarios | Se pueden guardar los comentarios | Pass |
+
+
+## Test Suite: Course Controller Test 
+| N° | Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
+| ----------- | ----------- | ----------- | ----------- | ----------- | 
+| 10 | Course Controller displays course view| La vista de los cursos se muestra a todos | La vista de los cursos se muestra a todos | Pass |
+| 11 | Course Controller does not display user course view to guests | Los invitados no pueden ver la vista de los cursos de los usuarios | Los invitados no pueden ver la vista de los cursos de los usuarios | Pass |
+| 12 | Course Controller does not display add comment view to guests | Los invitados no pueden acceder a la vista 'agregar comentarios' | Los invitados no pueden acceder a la vista 'agregar comentarios' | Pass |
+| 13 | Course Controller displays add ressource view to users| Los usuarios pueden acceder a la vista 'añadir recursos' | Los usuarios pueden acceder a la vista 'añadir recursos' | Pass |
+| 14 | Course Controller save resource works | Se pueden guardar los recursos | Se pueden guardar los recursos | Pass |
+
+
+
 ## Test Suite: Email Verification Test
 | N° | Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| 7 | Email verification screen can be rendered | La vista de Verificación de Correo se muestra a todos | La vista de Verificación de Correo se muestra a todos | Pass |
-| 8 | Email can be verified | El correo puede ser verificado | El correo puede ser verificado | Pass |
-| 9 | Email is not verified with invalid hash | El correo no puede ser verificado con un hash inválido | El correo no puede ser verificado con un hash inválido | Pass |
+| 15 | Email verification screen can be rendered | La vista de Verificación de Correo se muestra a todos | La vista de Verificación de Correo se muestra a todos | Pass |
+| 16 | Email can be verified | El correo puede ser verificado | El correo puede ser verificado | Pass |
+| 17 | Email is not verified with invalid hash | El correo no puede ser verificado con un hash inválido | El correo no puede ser verificado con un hash inválido | Pass |
+
+
 
 ## Test Suite: Password Confirmation Test
 | N° | Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| 10 | Confirm password screen can be rendered | El mensaje de confirmación de contraseña se muestra a todos | El mensaje de confirmación de contraseña se muestra a todos | Pass |
-| 11 | Password can be confirmed | La contraseña puede confirmarse a todos | La contraseña puede confirmarse a todos | Pass |
-| 12 | Password is not confirmed with invalid_password | Las contraseñas no válidas se muestra a todos | Las contraseñas no válidas se muestra a todos | Pass |
+| 18 | Confirm password screen can be rendered | El mensaje de confirmación de contraseña se muestra a todos | El mensaje de confirmación de contraseña se muestra a todos | Pass |
+| 19 | Password can be confirmed | La contraseña puede confirmarse a todos | La contraseña puede confirmarse a todos | Pass |
+| 20 | Password is not confirmed with invalid_password | Las contraseñas no válidas se muestra a todos | Las contraseñas no válidas se muestra a todos | Pass |
 
 ## Test Suite: Password Reset Test
 | N° | Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
 | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| 13 | Reset password link screen can be rendered | La vista de Enlace de Restablecimiento de Contraseña se muestra a todos |  La vista de enlace de Restablecimiento de Contraseña se muestra a todos | Pass |
-| 14 | Reset password link can be requested | Todos pueden solicitar restablecimiento de contraseña | Todos pueden solicitar restablecimiento de contraseña | Pass |
-| 15 | Reset password screen can be rendered | La vista de Restablecimiento de Contraseña se muestra a todos | La vista de Restablecimiento de Contraseña se muestra a todos | Pass |
-| 16 | Password can be reset with valid token | Todos pueden reestablecer su contraseña con un token válido |  Todos pueden reestablecer su contraseña con un token válido | Pass |
+| 21 | Reset password link screen can be rendered | La vista de Enlace de Restablecimiento de Contraseña se muestra a todos |  La vista de enlace de Restablecimiento de Contraseña se muestra a todos | Pass |
+| 22 | Reset password link can be requested | Todos pueden solicitar restablecimiento de contraseña | Todos pueden solicitar restablecimiento de contraseña | Pass |
+| 23 | Reset password screen can be rendered | La vista de Restablecimiento de Contraseña se muestra a todos | La vista de Restablecimiento de Contraseña se muestra a todos | Pass |
+| 24 | Password can be reset with valid token | Todos pueden reestablecer su contraseña con un token válido |  Todos pueden reestablecer su contraseña con un token válido | Pass |
 
 
 
