@@ -68,25 +68,25 @@ https://www.figma.com/file/KXg9J8ZPBHuc95geISk21W/Prototipos?node-id=0%3A1
 # Casos de Prueba
 
 ## Test Suite: Account Controller Test
-| Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
-| ----------- | ----------- | ----------- | ----------- | 
-| Account Controller does not displays account view to guests | Los invitados no pueden acceder a la vista "cuenta" | Los invitados no pueden acceder a la vista "cuenta" | Pass |
-| Account Controller displays the account view to users | Los usuarios registrados si pueden acceder a la vista "cuenta" |  Los usuarios registrados si pueden acceder a la vista "cuenta" | Pass |
-| Save school of user works | El usuario puede establecer la escuela en la que estudia | El usuario puede establecer la escuela en la que estudia | Pass |
+| N° | Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
+| ----------- | ----------- | ----------- | ----------- | ----------- | 
+| 1 | Account Controller does not displays account view to guests | Los invitados no pueden acceder a la vista "cuenta" | Los invitados no pueden acceder a la vista "cuenta" | Pass |
+| 2 | Account Controller displays the account view to users | Los usuarios registrados si pueden acceder a la vista "cuenta" |  Los usuarios registrados si pueden acceder a la vista "cuenta" | Pass |
+| 3 | Save school of user works | El usuario puede establecer la escuela en la que estudia | El usuario puede establecer la escuela en la que estudia | Pass |
 
 ## Test Suite: Authentication Controller Test
-| Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
-| ----------- | ----------- | ----------- | ----------- |
-| Login screen can be rendered | La vista de Inicio de Sesión se muestra a todos | La vista de Inicio de Sesión se muestra a todos | Pass |
-| Users can authenticate using the login screen | Los usuarios pueden autenticarse usando la vista de Inicio de Sesión | Los usuarios pueden autenticarse usando la vista de Inicio de Sesión | Pass |
-| Users can not authenticate with invalid password | Los usuarios no pueden autenticarse con una contraseña inválida | Los usuarios no pueden autenticarse con una contraseña inválida | Pass |
+| N° | Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
+| ----------- | ----------- | ----------- | ----------- | ----------- | 
+| 4 | Login screen can be rendered | La vista de Inicio de Sesión se muestra a todos | La vista de Inicio de Sesión se muestra a todos | Pass |
+| 5 | Users can authenticate using the login screen | Los usuarios pueden autenticarse usando la vista de Inicio de Sesión | Los usuarios pueden autenticarse usando la vista de Inicio de Sesión | Pass |
+| 6 | Users can not authenticate with invalid password | Los usuarios no pueden autenticarse con una contraseña inválida | Los usuarios no pueden autenticarse con una contraseña inválida | Pass |
 
 ## Test Suite: Email Verification Test
-| Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
-| ----------- | ----------- | ----------- | ----------- |
-| Email verification screen can be rendered | La vista de Verificación de Correo se muestra a todos | La vista de Verificación de Correo se muestra a todos | Pass |
-| Email can be verified | El correo puede ser verificado | El correo puede ser verificado | Pass |
-| Email is not verified with invalid hash | El correo no puede ser verificado con un hash inválido | El correo no puede ser verificado con un hash inválido | Pass |
+| N° | Escenario de Caso de Prueba  | Resultado Esperado | Resultado Real | Pass/Fail |
+| ----------- | ----------- | ----------- | ----------- | ----------- | 
+| 7 | Email verification screen can be rendered | La vista de Verificación de Correo se muestra a todos | La vista de Verificación de Correo se muestra a todos | Pass |
+| 8 | Email can be verified | El correo puede ser verificado | El correo puede ser verificado | Pass |
+| 9 | Email is not verified with invalid hash | El correo no puede ser verificado con un hash inválido | El correo no puede ser verificado con un hash inválido | Pass |
 
 
 ## Licencia
