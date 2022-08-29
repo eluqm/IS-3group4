@@ -146,14 +146,6 @@ https://www.figma.com/file/KXg9J8ZPBHuc95geISk21W/Prototipos?node-id=0%3A1
 | 27  | See link repository without having logged in | La vista de Repositorio de Enlaces se muestra a todos                         | La vista de Repositorio de Enlaces se muestra a todos                         | Pass      |
 | 28  | See links repository having logged in        | La vista de Repositorio de Enlaces se muestra a todos                         | La vista de Repositorio de Enlaces se muestra a todos                         | Pass      |
 
-## Test Suite: Access External Help Test
-
-| N°  | Escenario de Caso de Prueba                             | Resultado Esperado                                | Resultado Real                                    | Pass/Fail |
-| --- | ------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | --------- |
-| 29  | Request external help without having logged in          | Los invitados no podrán solicitar ayuda académica | Los invitados no podrán solicitar ayuda académica | Pass      |
-| 30  | Request external help having logged in                  | Los usuarios podrán solicitar ayuda académica     | Los usuarios podrán solicitar ayuda académica     | Pass      |
-| 31  | Provide external academic help without having logged in | Los invitados no podrán brindar ayuda académica   | Los invitados no podrán brindar ayuda académica   | Pass      |
-| 32  | Provide external academic help having logged in         | Los usuarios podrán brindar ayuda académica       | Los usuarios podrán brindar ayuda académica       | Pass      |
 
 ## Licencia
 
